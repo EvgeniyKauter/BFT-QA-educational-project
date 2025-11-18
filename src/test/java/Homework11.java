@@ -21,5 +21,7 @@ public class Homework11 {
                 .shouldBe(visible);
     }
 
+    // Изначально залил тесты сразу в ветку main, это коммит для выполнения условий ДЗ
+
     //mvn clean -Dtest=Homework11 test
 }
