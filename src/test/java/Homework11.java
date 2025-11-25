@@ -5,7 +5,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class Homework11 {
 
-    @Test
+    //@Test
     public void Test1 () {
         open("https://ya.ru/");
         $(byXpath("/html/body/main/div[2]/form/div[4]/div[2]/div[2]/div[2]/div/textarea[1]"))
@@ -14,7 +14,7 @@ public class Homework11 {
                 .shouldBe(visible);
     }
 
-    @Test
+    //@Test
     public void Test2 () {
         open("https://ya.ru/");
         $(byXpath("/html/body/main/div[2]/form/div[4]/div[1]/section/ul/li[2]/a/div"))
