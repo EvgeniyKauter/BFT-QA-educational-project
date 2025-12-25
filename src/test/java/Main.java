@@ -40,12 +40,5 @@ public class Main {
                 boxIterator.remove();
             }
         }
-
-//        boxIterator.forEachRemaining(box -> {
-//            if (box.getWidth() > 30) {
-//                secondBox.add(box);
-//                boxIterator.remove();
-//            }
-//        });
     }
 }
