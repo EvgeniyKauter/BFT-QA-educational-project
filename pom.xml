@@ -36,6 +36,12 @@
             <artifactId>rest-assured</artifactId>
             <version>5.5.6</version> <!-- Замените на последнюю версию -->
         </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>15.0</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <properties>
